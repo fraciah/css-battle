@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="holder">
+        <div class="a"></div>
+        <div class="b"></div>
+    </div>
+    <style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #AA445F;
+    }
+    .holder {
+        display: flex;
+        gap: 3rem;
+        width: 250px;
+        height: 199px;
+        border-radius: 50%;
+    }
+    .a, .b {
+        width: 50%;
+        height: 100%;
+    }
+    .a {
+        background: #F7EC7D;
+        border-radius: 10rem 0 0 10rem;
+    }
+    .b {
+        background: #E38F66;
+        border-radius: 0 10rem 10rem 0;
+    }
+    </style>
+</body>
+</html>
