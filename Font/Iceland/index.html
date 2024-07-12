@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w1 white h2"></div>
+    <div class="w1 red h3"></div>
+    <div class="h1 white w2 abs1"></div>
+    <div class="h1 red w3 abs2"></div>
+    <style>
+        body{
+            margin:0;
+            display:flex;
+            align-items:center;
+            height: 100vh;
+            background:#33499F;
+        }
+        .w1 {
+            width:100vw;
+        }
+        .h1 {
+            height:100vh;
+        }
+        .h2 {
+            height:80px;
+        }
+        .h3 {
+            height:50px;
+        }
+        .w2 {
+            width:80px;
+        }
+        .w3 {
+            width:50px;
+        }
+        .white {
+            background:#FFFFFF;
+        }
+        .red {
+            z-index:1;
+            position: absolute;
+            background:#DE3832;
+        }
+        .abs1, .abs2{
+            position:absolute;
+            left:110px;
+        }
+        .abs2 {
+            left:125px;
+        }
+    </style>
+</body>
+</html>
