@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class='a'>
+        <div class='b t'></div>
+        <div class='b b'></div>
+    </div>
+    <style>
+      body{
+        margin:0;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:#151917;
+      }
+      .a{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:210px;
+        height:210px;
+        border-radius: 50%;
+        border: 20px solid #D83A34;
+        position:relative;
+      }
+      .b{
+        width:0;
+        border-left:62px solid transparent;
+        border-right:62px solid transparent;
+        border-bottom: 90px solid #D83A34;
+      }
+      .t, .b {
+        position:absolute;
+      }
+      .b{
+        bottom:36px;
+      }
+      .t{
+        transform: rotate(180deg);
+        top: 36px;
+      }
+    </style>   
+</body>
+</html>
