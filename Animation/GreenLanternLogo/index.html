@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class='parent circle'>
+    <div class='block b1'></div>
+    <div class='circle mini-circle'></div>
+    <div class='block b2'></div>
+  </div>
+  <style>
+    body{
+      margin:0;
+      background:#70CEAF;
+    }
+    body, .parent {
+      display:flex;
+      align-items: center;
+      justify-content:center;
+    }
+    .parent{
+      width:230px;
+      height: 230px;
+      flex-direction:column;
+      /* position:relative; */
+    }
+    .circle {
+      border: 25px solid #0E532F;
+      border-radius:50%;
+    }
+    .block{
+      position:absolute;
+      width:140px;
+      height:25px;
+      background: #0E532F;
+    }
+    .b1{
+      top: 70px;
+    }
+    .b2{
+      top: 205px;
+    }
+    .mini-circle{
+      width:90px;
+      height: 90px;
+    }
+  </style>
+</body>
+</html>
